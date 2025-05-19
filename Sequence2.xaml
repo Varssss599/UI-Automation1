@@ -1,0 +1,215 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Sequence2" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Sequence2_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Reflection</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Sequence2" sap:VirtualizedContainerService.HintSize="761,339.04" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap:VirtualizedContainerService.HintSize="518,1408" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsPinned">False</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Chrome GitHub" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="484,1348" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" InteractionMode="DebuggerApi" ScopeGuid="f6449c16-a99d-473a-bc73-f754b294e4b5" Version="V2">
+        <uix:NApplicationCard.Body>
+          <ActivityAction x:TypeArguments="x:Object">
+            <ActivityAction.Argument>
+              <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+            </ActivityAction.Argument>
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1108" sap2010:WorkflowViewState.IdRef="Sequence_3">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:String" Name="introduction" />
+                <Variable x:TypeArguments="x:String" Name="RepositoryBehaviour" />
+                <Variable x:TypeArguments="x:String" Name="variable1" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <uix:NGetText DisplayName="Get Text ''UL''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NGetText_1" ScopeIdentifier="f6449c16-a99d-473a-bc73-f754b294e4b5" TextString="[introduction]" Version="V4">
+                <uix:NGetText.Target>
+                  <uix:TargetAnchorable BrowserURL="github.com" DesignTimeRectangle="344, 454, 660, 247" DesignTimeScaleFactor="1" ElementType="List" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;article&amp;gt;ul' parentid='dashboard' tag='UL' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='dashboard' tag='UL' class='d-flex flex-wrap mt-2 gutter-sm-condensed' aaname='                               ' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="61efbfdf-3f85-4467-8893-2fe93846d904" InformativeScreenshot="73ffc3f006f9e9d5c9af555a8de83c0d.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='GitHub' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive">
+                    <uix:TargetAnchorable.PointOffset>
+                      <uix:PointOffset />
+                    </uix:TargetAnchorable.PointOffset>
+                  </uix:TargetAnchorable>
+                </uix:NGetText.Target>
+              </uix:NGetText>
+              <uix:NGetText DisplayName="Get Text ''Varssss599/Automation-c…''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,189" sap2010:WorkflowViewState.IdRef="NGetText_2" ScopeIdentifier="f6449c16-a99d-473a-bc73-f754b294e4b5" TextString="[RepositoryBehaviour]" Version="V4">
+                <uix:NGetText.Target>
+                  <uix:TargetAnchorable BrowserURL="github.com" CVScreenId="aac3f6ee-36aa-4e42-bc85-711025a8a872" CvType="AnyWordGroup" DesignTimeRectangle="369, 523, 280, 21" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Introduction to GitHub' parentid='dashboard' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='dashboard' tag='SPAN' type='' class='color-fg-accent text-bold' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' /&gt;" Guid="104342ce-93c6-40c7-a07b-8db8db67c470" InformativeScreenshot="9b0e43cec0f1347dcfe29f89bd1defaf.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='GitHub' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target CVScreenId="0e912df7-583a-4262-9429-786def2a0cd0" CvTextArea="55, 317, 229, 16" CvTextArgument="Varssss599/Automation-concepts-in-" CvType="Text" DesignTimeRectangle="55, 317, 229, 16" ElementType="Text" Guid="e7b4f13b-ee67-40f8-98bc-b944b7c3c9ed" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                    <uix:TargetAnchorable.PointOffset>
+                      <uix:PointOffset />
+                    </uix:TargetAnchorable.PointOffset>
+                  </uix:TargetAnchorable>
+                </uix:NGetText.Target>
+              </uix:NGetText>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Varssss599/Automation-c…''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f6449c16-a99d-473a-bc73-f754b294e4b5" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="github.com" CVScreenId="0e912df7-583a-4262-9429-786def2a0cd0" CvTextArea="55, 317, 229, 16" CvTextArgument="Varssss599/Automation-concepts-in-" CvType="Text" DesignTimeRectangle="55, 317, 228, 16" DesignTimeScaleFactor="1" ElementType="Text" Guid="c34a027d-d5fa-448b-b9aa-52f4b0334eb1" InformativeScreenshot="74c3ed148f3d19f4f992818c77a6499b.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='GitHub' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target CVScreenId="0e912df7-583a-4262-9429-786def2a0cd0" CvTextArea="55, 338, 42, 13" CvTextArgument="UIPath" CvType="Text" DesignTimeRectangle="55, 338, 42, 13" ElementType="Text" Guid="054e0e37-7a1b-46e9-b2ca-a1b83897735d" SearchSteps="CV" TargetType="ComputerVisionBased" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                    <uix:TargetAnchorable.PointOffset>
+                      <uix:PointOffset />
+                    </uix:TargetAnchorable.PointOffset>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Main.xaml''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f6449c16-a99d-473a-bc73-f754b294e4b5" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="github.com/Varssss599/Automation-concepts-in-UIPath" CVScreenId="36b575f1-39c7-4c74-bb75-302a60371dc5" CvTextArea="117, 288, 65, 13" CvTextArgument="Main.xaml" CvType="Text" DesignTimeRectangle="119, 285, 63, 19" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl tableCol='2' tableRow='3' tag='A' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='TABLE' /&gt;&lt;webctrl type='' class='Link--primary' tag='A' aaname='Main.xaml' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Main.xaml' /&gt;" Guid="56ede863-ec9b-4cae-a7ee-530d7f8b19c7" InformativeScreenshot="3efc6bee5d07d94c29e47dffe207e098.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Varssss599/Automation-concepts-in-UIPath' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive">
+                    <uix:TargetAnchorable.PointOffset>
+                      <uix:PointOffset />
+                    </uix:TargetAnchorable.PointOffset>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+              <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click ''Actions''" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="f6449c16-a99d-473a-bc73-f754b294e4b5" Version="V4">
+                <uix:NClick.Target>
+                  <uix:TargetAnchorable BrowserURL="github.com/Varssss599/Automation-concepts-in-UIPath/blob/main/Main.xaml" DesignTimeRectangle="329, 285, 1030, 2686" DesignTimeScaleFactor="1" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;main&amp;gt;turbo-frame&amp;gt;div&amp;gt;react-app&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div&amp;gt;div' parentid='repo-content-pjax-container' tabindex='0' tag='DIV' /&gt;" FuzzySelectorArgument="&lt;webctrl type='' parentid='repo-content-pjax-container' tabindex='0' tag='DIV' class='Box-sc-g0xbh4-0 leYMvG' aaname='' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:tabindex='fuzzy' fuzzylevel:tabindex='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Breadcrumbs&amp;#xA;Automation-concepts-in-UIPath&amp;#xA;/Main.xaml&amp;#xA;Latest commit&amp;#xA;Varssss599&amp;#xA;Add files via upload' /&gt;" Guid="e7c7c2f1-1cc6-4145-9503-ccdf8f794065" InformativeScreenshot="da08c9a5c5b568381a70bf068e4494a0.png" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Automation-concepts-in-UIPath/Main.xaml at main · Varssss599/Automation-concepts-in-UIPath' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive">
+                    <uix:TargetAnchorable.Anchors>
+                      <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                        <uix:Target CVScreenId="37f6f866-b4a8-44b2-8b20-038b1cc9156b" CvTextArea="351, 254, 48, 13" CvTextArgument="Actions" CvType="Text" DesignTimeRectangle="352, 246, 47, 30" ElementType="Text" FullSelectorArgument="&lt;webctrl parentid='actions-tab' tag='SPAN' /&gt;" FuzzySelectorArgument="&lt;webctrl parentid='actions-tab' tag='SPAN' type='' class='' aaname='Actions' matching:parentid='fuzzy' fuzzylevel:parentid='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' check:innerText='Actions' /&gt;" Guid="42c17163-33f5-4b9c-8ebf-1e3b55da77e8" SearchSteps="FuzzySelector, CV" />
+                      </scg:List>
+                    </uix:TargetAnchorable.Anchors>
+                    <uix:TargetAnchorable.PointOffset>
+                      <uix:PointOffset />
+                    </uix:TargetAnchorable.PointOffset>
+                  </uix:TargetAnchorable>
+                </uix:NClick.Target>
+                <uix:NClick.VerifyOptions>
+                  <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                    <uix:VerifyExecutionOptions.Retry>
+                      <InArgument x:TypeArguments="x:Boolean" />
+                    </uix:VerifyExecutionOptions.Retry>
+                    <uix:VerifyExecutionOptions.Timeout>
+                      <InArgument x:TypeArguments="x:Double" />
+                    </uix:VerifyExecutionOptions.Timeout>
+                  </uix:VerifyExecutionOptions>
+                </uix:NClick.VerifyOptions>
+              </uix:NClick>
+            </Sequence>
+          </ActivityAction>
+        </uix:NApplicationCard.Body>
+        <uix:NApplicationCard.TargetApp>
+          <uix:TargetApp Area="-8, -8, 1382, 736" BrowserType="Chrome" ContentHash="40AEmUDnVUCu6mJiZxhKPg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAANRSURBVFhHtVc7a1RREF7fFr5lvpn7SFzjasAFLRb7RZBgYxFIIwpqoY2dYiPI6g8Qoy6p7MU/oF0ULGJANBZCEMQHxMJnHoJidGWOJ+u9s3cf2dUPBpYzM98359zzmM3lOkSxWFwbAEMCVIVoXIimGZhX099uDKhqjMba/K6RJxIBxphololqHdqs5miu5esYhUJhnQBXBFjIEOjINFc5lMvyt4Sf9YQl7NaUq+PViIF9QvTWkvRqyqncVi8FN/P/IL5kyt10Jfw3Ty27ED0XotsCfLBkHdhnIbojRI9TnMBE5p7QzWJJAubT6iuXy6uZ+RQD75zvz/F7JkQPhOg+A1NM9MULfBSis0tHMQCGLa9qpcT9pmvY7SJyIBlXJNogInsrlcrK5LiiVqutiKJoT39//9bkODPvbOAFFlKfwp/zVJBaEASlJFk3CMOw3/L6IsZcgC5Vs0smAI5bwuVCRA5bXm+z7jPp1ZnhdMsUBMEOS7hcRFG0XYD3lt9PcEiXv2odvoALlqxbCNFJy+81quoctw61OI53W6Jukc/nt1h+VwDRuBYw3eAAFnRXW6JeIMDrBh2i6Zw709YBvLQEvUKIJq2OamtlXxscRHOWoFfopKyOamcujTNmWJJukc/n1wvwzWoI8EoLeGQdagFwzBJ1ixZHfSIXEI1ah3MSTf6rjSjAXcvvJkk0mvlYJCo8b8mWCyE6YXnrBQDDucHBwY266azT2y99uUql0hpL3A76YOkEmGgxg1dtTh83FyzAzboDuBoyH/VPrBsTojcCVELgUBzH26zYEgYGBjYz88GA+SIDLzJE6ybMN+qJMVFBgO9e7JMKaXUMPLGJDDzMeo4VzW5Va3oi+oBd6WTgciJoNoqiWK9j+5CEzEdSiQmISNmKZZmups11LZlZ9ls67puVc0x0TTukzHbKQz+PFWswYKopRxiGfUw044MX9S23Me3ARD8aRP/ajGrYnBQiYH+qCOCe7uYAOCPApZGRkVU2J4kWu35GuW18JvT7M/A0g6TW7n8fE/20OdrAamtmY1vCt+kVe4frvW5jk9C7YylWT5beI+1yWkKPizBfd30jMK8tuo1JQtty948ZqP7Lpsa15LblzoJ+vkKhsMmON8NveexT0tCnzlwAAAAASUVORK5CYII=" InformativeScreenshot="feb07ccdcdcc3d0b0055edbf51c0c9fd.jpg" Reference="gAWDL7Bl70eu6Xax1oEPhg/q7joo74pJEaCl71C5CHN7Q" Selector="&lt;html app='chrome.exe' title='GitHub' /&gt;" Url="https://github.com/" Version="V2" />
+        </uix:NApplicationCard.TargetApp>
+      </uix:NApplicationCard>
+    </Sequence>
+  </Sequence>
+</Activity>
